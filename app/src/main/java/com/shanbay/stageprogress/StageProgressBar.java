@@ -209,7 +209,7 @@ public class StageProgressBar extends View {
 		invalidate();
 	}
 
-	public void setmNodeNum(int num) {
+	public void setNodeNum(int num) {
 		this.mNodeNum = num;
 		invalidate();
 	}
