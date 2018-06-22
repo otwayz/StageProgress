@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.shanbay.stageprogress.StageProgressBar
+        android:id="@+id/stage_progress"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:normal_node_radius="3dp"
+        app:selected_node_radius="5dp"
+        app:node_num="4"
+        app:normal_color="#eee"
+        app:current_node_index="2"
+        app:selected_color="#0f0"
+        />
+
+</LinearLayout>

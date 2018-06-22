@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StageProgressBar">
+        <attr name="normal_color" format="color"/>
+        <attr name="selected_color" format="color"/>
+        <attr name="normal_node_radius" format="dimension"/>
+        <attr name="selected_node_radius" format="dimension"/>
+        <attr name="node_num" format="integer"/>
+        <attr name="current_node_index" format="integer"/>
+    </declare-styleable>
+</resources>
