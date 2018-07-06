@@ -83,7 +83,7 @@ public class StageProgressBar extends View {
 	protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
 		int minGap = mSelectedNodeRadius * 2 * 4;
 
-		int minWidth = mNodeNum * 2 * mSelectedNodeRadius + (mNodeNum - 1) * minGap + 4;// 两边各留2像素
+		int minWidth = 2 * mSelectedNodeRadius + (mNodeNum - 1) * minGap + 4;// 两边各留2像素
 		int minHeight = mSelectedNodeRadius * 2 + 2; // 上下各留1像素
 
 		int width;
@@ -98,8 +98,7 @@ public class StageProgressBar extends View {
 		setMeasuredDimension(width, height);
 	}
 
-	@Override
-	protected void onDraw(Canvas canvas) {
+	private void initPath() {
 		mNodeXList.clear();
 		mNormalPath.reset();
 		mSelectedPath.reset();
@@ -161,7 +160,11 @@ public class StageProgressBar extends View {
 			mNodeXList.add(startX + (gap * i));
 		}
 		mNormalPath.close();
+	}
 
+	@Override
+	protected void onDraw(Canvas canvas) {
+		initPath();
 		canvas.drawPath(mNormalPath, mNormalPaint);// 先画背景
 		canvas.drawPath(mSelectedPath, mSelectedPaint); // 选中效果
 	}

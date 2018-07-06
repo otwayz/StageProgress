@@ -20,4 +20,13 @@
         app:selected_color="#0f0"
         />
 
+
+    <com.shanbay.stageprogress.BeadProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:bead_node_num="5"
+        app:bead_node_index="3"
+        app:bead_axis_color="#e0e0e0"
+        app:bead_node_icon="@drawable/icon_bead_2"
+        />
 </LinearLayout>
