@@ -23,4 +23,4 @@ BeadProgressBar 参数和上面的类似：
     </declare-styleable>
 ```
 
-![示例](./images/demo.mp4)
+![示例](./images/demo.gif)
