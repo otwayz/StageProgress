@@ -12,4 +12,15 @@
 | node_num | 节点总个数 |
 | current_node_index | 目前选中节点位置 |
 
-![示例](./images/stage_progress.png)
+BeadProgressBar 参数和上面的类似：
+
+```xml
+    <declare-styleable name="BeadProgressBar">
+        <attr name="bead_node_num" format="integer"/>
+        <attr name="bead_node_index" format="integer"/>
+        <attr name="bead_node_icon" format="reference"/>
+        <attr name="bead_axis_color" format="color"/>
+    </declare-styleable>
+```
+
+![示例](./images/demo.mp4)
