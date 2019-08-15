@@ -15,4 +15,29 @@
         <attr name="bead_node_icon" format="reference"/>
         <attr name="bead_axis_color" format="color"/>
     </declare-styleable>
+
+    <declare-styleable name="StepProgressBar">
+        <attr name="step_progress_step_num" format="integer"/>
+        <attr name="step_progress_index" format="integer"/>
+
+        <attr name="step_progress_unselected_line_color" format="color|reference"/>
+        <attr name="step_progress_selected_line_start_color" format="color|reference"/>
+        <attr name="step_progress_selected_line_end_color" format="color|reference"/>
+
+        <attr name="step_progress_unselected_ring_color" format="color|reference"/>
+        <attr name="step_progress_selected_ring_color" format="color|reference"/>
+
+        <attr name="step_progress_unselected_bead_color" format="color|reference"/>
+        <attr name="step_progress_selected_bead_color" format="color|reference"/>
+
+        <attr name="step_progress_unselected_bead_radius" format="dimension"/>
+        <attr name="step_progress_selected_bead_radius" format="dimension"/>
+
+        <attr name="step_progress_unselected_ring_radius" format="dimension"/>
+        <attr name="step_progress_selected_ring_radius" format="dimension"/>
+
+        <attr name="step_progress_unselected_line_height" format="dimension"/>
+        <attr name="step_progress_selected_line_height" format="dimension"/>
+    </declare-styleable>
+
 </resources>

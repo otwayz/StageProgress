@@ -29,4 +29,13 @@
         app:bead_axis_color="#e0e0e0"
         app:bead_node_icon="@drawable/icon_bead_2"
         />
+    
+    <com.shanbay.stageprogress.StepProgressBar
+        android:id="@+id/step_progress"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        app:step_progress_index="0"
+        app:step_progress_selected_line_start_color="#CEED6B"
+        app:step_progress_selected_line_end_color="#9CD269"
+        android:layout_height="100dp"/>
 </LinearLayout>
